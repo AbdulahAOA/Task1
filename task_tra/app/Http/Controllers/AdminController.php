@@ -187,7 +187,7 @@ class AdminController extends Controller
         ) {
 
             return redirect()
-                ->route('blogs.index')
+                ->route('home')
                 ->with(
                     'success',
                     'مرحباً بك!'
